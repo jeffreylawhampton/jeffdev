@@ -1,8 +1,14 @@
 export default (
-  <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171.01 179.14">
-    <path
-      d="M210.51,35.43V211.76H174V144H106.76v1.35a73.11,73.11,0,0,1-5.47,28.77,63.25,63.25,0,0,1-15,21.78,66.08,66.08,0,0,1-22.4,13.91,80.72,80.72,0,0,1-24.39,4.74V182.21A36.57,36.57,0,0,0,52.83,179a29.76,29.76,0,0,0,10.79-8.54,34.19,34.19,0,0,0,5.94-12.2,57.12,57.12,0,0,0,1.82-14.06L69.77,35.43h37v72.11H174V35.43Z"
-      transform="translate(-39.49 -35.43)"
-    />
+  <svg
+    id="menu"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 69.99 48.76"
+    aria-labelledby="menuTitle"
+    role="img"
+  >
+    <title id="menuTitle">Menu</title>
+    <rect width="35.01" height="6.96" rx="3.48" />
+    <rect y="20.9" width="69.99" height="6.96" rx="3.48" />
+    <rect y="41.8" width="52.32" height="6.96" rx="3.48" />
   </svg>
 )
