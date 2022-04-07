@@ -1,0 +1,101 @@
+.transparent {
+  opacity: 0;
+  transition: all 1.2s ease-in-out;
+}
+
+.fadein {
+  opacity: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.slideup {
+  transition: all 400ms ease-in-out;
+  transition-delay: 200ms;
+}
+
+.offscreen {
+  transform: translate(190vw, 0);
+  transition: all 700ms ease;
+  transition-delay: 500ms;
+}
+
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #ee78d6, 0 0 15px #ee78d6,
+      0 0 20px #ee78d6, 0 0 25px #ee78d6, 0 0 30px #ee78d6;
+    color: white;
+  }
+
+  24%,
+  55% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #ee78d6, 0 0 15px #ee78d6,
+      0 0 20px #ee78d6, 0 0 25px #ee78d6, 0 0 30px #ee78d6;
+    color: white;
+  }
+}
+
+@keyframes flicker2 {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: -0.2rem -0.2rem 10px #fff,
+      0.2rem 0.2rem 15px rgb(186, 220, 250), 0 0 20px #1f9eff, 0 0 30px #1f9eff;
+  }
+
+  24%,
+  55% {
+    text-shadow: -0.2rem -0.2rem 5px rgb(153, 153, 153),
+      0.2rem 0.2rem 10px rgb(125, 146, 165);
+    box-shadow: none;
+  }
+}
+
+@keyframes flicker3 {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397), -0.2rem -0.2rem 10px #fff,
+      0.2rem 0.2rem 15px rgb(186, 220, 250), 0 0 20px #1f9eff, 0 0 30px #1f9eff;
+  }
+
+  24%,
+  55% {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397),
+      -0.2rem -0.2rem 5px rgb(153, 153, 153),
+      0.2rem 0.2rem 10px rgb(125, 146, 165);
+    box-shadow: none;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
